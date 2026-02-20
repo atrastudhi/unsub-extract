@@ -47,8 +47,6 @@ npm install
 3. For **Mailbox**, **Port**, and **Output file**, press **Enter** to use the defaults, or type a value.
 4. The tool connects, scans the mailbox, and writes results to the output file. Progress is shown in the terminal.
 
-![CLI: prompts, connection, scanning, and results](assets/sample.png)
-
 ### Usage
 
 ```bash
