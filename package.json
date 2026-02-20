@@ -1,0 +1,29 @@
+{
+  "name": "unsub-extract",
+  "version": "1.0.0",
+  "description": "CLI to extract unsubscribe links from emails via IMAP",
+  "main": "src/main.js",
+  "bin": {
+    "unsub-extract": "src/main.js"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "extract": "node src/main.js"
+  },
+  "keywords": [
+    "imap",
+    "email",
+    "unsubscribe",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "imapflow": "^1.2.10",
+    "mailparser": "^3.9.3",
+    "node-html-parser": "^7.0.2",
+    "readline-sync": "^1.4.10"
+  }
+}
